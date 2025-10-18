@@ -98,7 +98,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     case QK_KB_18:
         if (record->event.pressed) {
             prev_cpi_value = keyball_get_cpi();
-            keyball_set_cpi(2); // 一時的に使うCPIを100で割った値を指定
+            keyball_set_cpi(1); // 一時的に使うCPIを100で割った値を指定
         } else {
             keyball_set_cpi(prev_cpi_value);
         }
