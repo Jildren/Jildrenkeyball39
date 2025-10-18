@@ -53,28 +53,36 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 // clang-format on
 
-layer_state_t layer_state_set_user(layer_state_t state) {
-    // Auto enable scroll mode when the highest layer is 3
-    keyball_set_scroll_mode(get_highest_layer(state) == 3);
-    keyball_set_scroll_mode_h(get_highest_layer(state) == 1);
-    return state;
-}
 
 #ifdef OLED_ENABLE
 
-#    include "lib/oledkit/oledkit.h"
+#include "lib/oledkit/oledkit.h"
 
-void oledkit_render_info_user(void) {
-    keyball_oled_render_keyinfo();
-    keyball_oled_render_ballinfo();
-    keyball_oled_render_layerinfo();
+void oledkit_render_info_user(void)
+{
+  keyball_oled_render_keyinfo();
+  keyball_oled_render_ballinfo();
+  keyball_oled_render_layerinfo();
 }
 #endif
 
-#ifdef COMBO_ENABLE
-const uint16_t PROGMEM my_jq[] = {};
+/* layer_state_t layer_state_set_user(layer_state_t state)
+{
+  // Auto enable scroll mode when the highest layer is 3
+  keyball_set_scroll_mode(get_highest_layer(state) == 3);
+  return state;
+} */
 
-combo_t key_combos[] = {
-COMBO(),
-};
-#endif
+
+layer_state_t layer_state_set_user(layer_state_t state)
+{
+  uint8_t layer = get_highest_layer(state);
+  switch (layer)
+  {
+  case 3:
+    keyball_set_scroll_mode(true);
+    keyball_set_scrollsnap_mode(KEYBALL_SCROLLSNAP_MODE_VERTICAL);
+    break;
+  }
+  return state;
+}

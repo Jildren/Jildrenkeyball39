@@ -1,0 +1,712 @@
+フォルダー パスの一覧
+ボリューム シリアル番号は EEF7-325B です
+C:.
+|   .gitignore
+|   LICENSE
+|   README.md
+|   tree.txt
+|   
++---.github
+|   |   dependabot.yml
+|   |   
+|   +---actions
+|   |   +---checkout-qmk_firmware
+|   |   |       action.yml
+|   |   |       
+|   |   \---release-archive
+|   |           action.yml
+|   |           
+|   \---workflows
+|           build-all.yml
+|           build-firmware.yml
+|           build-user.yml
+|           release.yml
+|           
++---bin
+|       build-keyball-all.sh
+|       compare-size.sh
+|       hexsize.sh
+|       
++---keyball39
+|   +---3D_Printer_STL
+|   |       Keyball39Case1_Ball_Right_mm.stl
+|   |       Keyball39Case1_NoBall_Left_mm.stl
+|   |       Keyball39Case1_NoBall_Right_mm.stl
+|   |       
+|   +---design_data
+|   |       Circuit_of_Keyball39_Ballside_rev2.pdf
+|   |       Circuit_of_Keyball39_NoBallside_rev2.pdf
+|   |       Keyball39_BallSide_MiddlePCB.zip
+|   |       Keyball39_BallSide_TopPCB.zip
+|   |       Keyball39_BottomAcryl_2mm_136x185mm.dxf
+|   |       keyball39_Left_KiCad.zip
+|   |       Keyball39_MiddleAcryl_3mm_98x187mm.dxf
+|   |       Keyball39_NoBallSide_MiddlePCB.zip
+|   |       Keyball39_NoBallSide_TopPCB.zip
+|   |       keyball39_Right_KiCad.zip
+|   |       
+|   \---doc
+|       |   firmware_README.md
+|       |   
+|       \---rev1
+|           |   buildguide_en.md
+|           |   buildguide_jp.md
+|           |   buildguide_jp_conth.md
+|           |   buildguide_jp_pinheader.md
+|           |   
+|           \---images
+|                   kb39_001.jpg
+|                   kb39_003.jpg
+|                   kb39_004.jpg
+|                   kb39_005.jpg
+|                   kb39_007.jpg
+|                   kb39_010.jpg
+|                   kb39_011.jpg
+|                   kb39_012.jpg
+|                   kb39_014.jpg
+|                   kb39_015.jpg
+|                   kb39_020.jpg
+|                   kb39_027.jpg
+|                   kb39_028.jpg
+|                   kb39_029.jpg
+|                   kb39_030.jpg
+|                   kb39_036.jpg
+|                   kb39_037.jpg
+|                   kb39_038.jpg
+|                   kb39_040.jpg
+|                   kb39_040p.jpg
+|                   kb39_041.jpg
+|                   kb39_041p.jpg
+|                   kb39_042.jpg
+|                   kb39_042p.jpg
+|                   kb39_050.jpg
+|                   kb39_055.jpg
+|                   kb39_055p.jpg
+|                   kb39_056.jpg
+|                   kb39_056p.jpg
+|                   kb39_057.jpg
+|                   kb39_057p.jpg
+|                   kb39_062.jpg
+|                   kb39_067.jpg
+|                   kb39_070.jpg
+|                   kb39_073.jpg
+|                   kb39_075.jpg
+|                   kb39_077.jpg
+|                   kb39_078.jpg
+|                   kb39_079.jpg
+|                   kb39_081.jpg
+|                   kb39_083.jpg
+|                   kb39_084.jpg
+|                   kb39_085.jpg
+|                   kb39_086.jpg
+|                   kb39_086b.jpg
+|                   kb39_087.jpg
+|                   kb39_087b.jpg
+|                   kb39_088.jpg
+|                   kb39_090.jpg
+|                   kb39_091.jpg
+|                   kb39_092.jpg
+|                   kb39_093.jpg
+|                   kb39_094.jpg
+|                   kb39_095.jpg
+|                   kb39_096.jpg
+|                   kb39_100.jpg
+|                   kb39_102.jpg
+|                   kb39_104.jpg
+|                   kb39_105.jpg
+|                   kb39_107.jpg
+|                   kb39_108.jpg
+|                   kb39_110.jpg
+|                   kb39_111.jpg
+|                   kb39_112.jpg
+|                   kb39_113.jpg
+|                   kb39_114.jpg
+|                   kb39_115.jpg
+|                   kb39_116.jpg
+|                   kb39_122.jpg
+|                   kb39_123.jpg
+|                   kb39_124.jpg
+|                   kb39_125.jpg
+|                   kb39_127.jpg
+|                   kb39_129.jpg
+|                   kb39_130.jpg
+|                   kb39_132.jpg
+|                   kb39_135.jpg
+|                   kb39_136.jpg
+|                   kb39_137.jpg
+|                   kb39_138.jpg
+|                   kb39_139.jpg
+|                   kb39_140.jpg
+|                   kb44_080.jpg
+|                   kb61_037.jpg
+|                   kb61_038.jpg
+|                   
++---keyball44
+|   +---design_data
+|   |       Circuit_of_Keyball44_Ballside_rev1.pdf
+|   |       Circuit_of_Keyball44_NoBallside_rev1.pdf
+|   |       Keyball44_BallSide_MiddlePCB.zip
+|   |       Keyball44_BallSide_TopPCB.zip
+|   |       Keyball44_BottomAcryl_2mm_156x186mm.zip
+|   |       keyball44_Left_KiCad.zip
+|   |       Keyball44_MiddleAcryl_3mm_120x183mm.zip
+|   |       Keyball44_NoBallSide_MiddlePCB.zip
+|   |       Keyball44_NoBallSide_TopPCB.zip
+|   |       keyball44_Right_KiCad.zip
+|   |       
+|   \---doc
+|       |   firmware_README.md
+|       |   
+|       \---rev1
+|           |   buildguide_en.md
+|           |   buildguide_en_pinheader.md
+|           |   buildguide_jp.md
+|           |   buildguide_jp_conth.md
+|           |   buildguide_jp_pinheader.md
+|           |   buildguide_jp_sub.md
+|           |   
+|           \---images
+|                   kb39_050.jpg
+|                   kb39_137.jpg
+|                   kb39_138.jpg
+|                   kb44_001.jpg
+|                   kb44_003.jpg
+|                   kb44_004.jpg
+|                   kb44_005.jpg
+|                   kb44_007.jpg
+|                   kb44_010.jpg
+|                   kb44_011.jpg
+|                   kb44_012.jpg
+|                   kb44_014.jpg
+|                   kb44_015.jpg
+|                   kb44_019.jpg
+|                   kb44_020.jpg
+|                   kb44_027.jpg
+|                   kb44_028.jpg
+|                   kb44_029.jpg
+|                   kb44_030.jpg
+|                   kb44_034.jpg
+|                   kb44_035.jpg
+|                   kb44_036.jpg
+|                   kb44_037.jpg
+|                   kb44_038.jpg
+|                   kb44_039.jpg
+|                   kb44_040.jpg
+|                   kb44_041.jpg
+|                   kb44_042.jpg
+|                   kb44_044.jpg
+|                   kb44_050.jpg
+|                   kb44_052.jpg
+|                   kb44_054.jpg
+|                   kb44_055.jpg
+|                   kb44_056.jpg
+|                   kb44_057.jpg
+|                   kb44_058.jpg
+|                   kb44_059.jpg
+|                   kb44_060.jpg
+|                   kb44_062.jpg
+|                   kb44_067.jpg
+|                   kb44_069.jpg
+|                   kb44_070.jpg
+|                   kb44_072.jpg
+|                   kb44_073.jpg
+|                   kb44_075.jpg
+|                   kb44_077.jpg
+|                   kb44_078.jpg
+|                   kb44_079.jpg
+|                   kb44_080.jpg
+|                   kb44_081.jpg
+|                   kb44_083.jpg
+|                   kb44_084.jpg
+|                   kb44_085.jpg
+|                   kb44_090.jpg
+|                   kb44_091.jpg
+|                   kb44_092.jpg
+|                   kb44_093.jpg
+|                   kb44_094.jpg
+|                   kb44_095.jpg
+|                   kb44_096.jpg
+|                   kb44_100.jpg
+|                   kb44_102.jpg
+|                   kb44_104.jpg
+|                   kb44_105.jpg
+|                   kb44_107.jpg
+|                   kb44_108.jpg
+|                   kb44_110.jpg
+|                   kb44_112.jpg
+|                   kb44_114.jpg
+|                   kb44_115.jpg
+|                   kb44_116.jpg
+|                   kb44_122.jpg
+|                   kb44_123.jpg
+|                   kb44_124.jpg
+|                   kb44_125.jpg
+|                   kb44_127.jpg
+|                   kb44_129.jpg
+|                   kb44_130.jpg
+|                   kb44_132.jpg
+|                   kb44_135.jpg
+|                   kb44_136.jpg
+|                   
++---keyball46
+|   +---.build
+|   |       keyball_rev1_default_oled.hex
+|   |       
+|   +---ball_design_data
+|   |       Trackball_circuit.pdf
+|   |       Trackball_PCB_gerber.zip
+|   |       
+|   \---doc
+|       \---rev1
+|           |   buildguide_en.md
+|           |   buildguide_jp.md
+|           |   Keyball46_Circuit_BallSide.pdf
+|           |   Keyball46_Circuit_NoBallSide.pdf
+|           |   
+|           \---images
+|                   kb61_077.jpg
+|                   yw001.jpg
+|                   yw002.jpg
+|                   yw003.jpg
+|                   yw004.jpg
+|                   yw005.jpg
+|                   yw017.jpg
+|                   yw020.jpg
+|                   yw021.jpg
+|                   yw022.jpg
+|                   yw023.jpg
+|                   yw024.jpg
+|                   yw025.jpg
+|                   yw026.jpg
+|                   yw027.jpg
+|                   yw028.jpg
+|                   yw029.jpg
+|                   yw030.jpg
+|                   yw031.jpg
+|                   yw032.jpg
+|                   yw033.jpg
+|                   yw034.jpg
+|                   yw035.jpg
+|                   yw037.jpg
+|                   yw038.jpg
+|                   yw040.jpg
+|                   yw041.jpg
+|                   yw042.jpg
+|                   yw051.jpg
+|                   yw052.jpg
+|                   yw053.jpg
+|                   yw060.jpg
+|                   yw061.jpg
+|                   yw063.jpg
+|                   yw064.jpg
+|                   yw065.jpg
+|                   yw070.jpg
+|                   yw071.jpg
+|                   yw072.jpg
+|                   yw075.jpg
+|                   yw076.jpg
+|                   yw080.jpg
+|                   yw081.jpg
+|                   yw082.jpg
+|                   yw085.jpg
+|                   yw086.jpg
+|                   yw087.jpg
+|                   yw088.jpg
+|                   yw089.jpg
+|                   yw090.jpg
+|                   yw091.jpg
+|                   yw092.jpg
+|                   yw093.jpg
+|                   yw094.jpg
+|                   yw095.jpg
+|                   yw096.jpg
+|                   yw097.jpg
+|                   yw100.jpg
+|                   yw101.jpg
+|                   yw102.jpg
+|                   yw103.jpg
+|                   yw104.jpg
+|                   yw110.jpg
+|                   yw111.jpg
+|                   yw112.jpg
+|                   yw113.jpg
+|                   yw114.jpg
+|                   yw115.jpg
+|                   yw120.jpg
+|                   yw121.jpg
+|                   yw122.jpg
+|                   yw123.jpg
+|                   yw124.jpg
+|                   yw125.jpg
+|                   yw126.jpg
+|                   yw127.jpg
+|                   yw128.jpg
+|                   yw129.jpg
+|                   yw130.jpg
+|                   yw131.jpg
+|                   yw132.jpg
+|                   yw140.jpg
+|                   yw141.jpg
+|                   yw142.jpg
+|                   yw143.jpg
+|                   
++---keyball61
+|   +---design_data
+|   |       Circuit of Keyball61 Rev2 Ball_side.pdf
+|   |       Circuit of Keyball61 Rev2 NoBall_side.pdf
+|   |       Keyball61_BallSide_Mid_PCB.zip
+|   |       Keyball61_BallSide_Top_PCB.zip
+|   |       keyball61_Left_KiCad.zip
+|   |       Keyball61_MiddleAcryl_3mm.dxf
+|   |       Keyball61_NoBallSide_Mid_PCB.zip
+|   |       Keyball61_NoBallSide_Top_PCB.zip
+|   |       Keyball61_Rev1_BallSide_Bottom_Acryl_Clear2mm.dxf
+|   |       Keyball61_Rev1_NoBallSide_Bottom_Acryl_Clear2mm.dxf
+|   |       keyball61_Right_KiCad.zip
+|   |       
+|   \---doc
+|       |   firmware_README.md
+|       |   
+|       \---rev1
+|           |   buildguide_en.md
+|           |   buildguide_jp.md
+|           |   buildguide_jp_conth.md
+|           |   buildguide_jp_pinheader.md
+|           |   
+|           \---images
+|                   kb44_080.jpg
+|                   kb61_001.jpg
+|                   kb61_002.jpg
+|                   kb61_003.jpg
+|                   kb61_004.jpg
+|                   kb61_005.jpg
+|                   kb61_006.jpg
+|                   kb61_007.jpg
+|                   kb61_010.jpg
+|                   kb61_010b.jpg
+|                   kb61_011.jpg
+|                   kb61_011b.jpg
+|                   kb61_013.jpg
+|                   kb61_013b.jpg
+|                   kb61_014.jpg
+|                   kb61_015.jpg
+|                   kb61_016.jpg
+|                   kb61_020.jpg
+|                   kb61_027.jpg
+|                   kb61_028.jpg
+|                   kb61_029.jpg
+|                   kb61_030.jpg
+|                   kb61_030b.jpg
+|                   kb61_033.jpg
+|                   kb61_034.jpg
+|                   kb61_035.jpg
+|                   kb61_036.jpg
+|                   kb61_037.jpg
+|                   kb61_038.jpg
+|                   kb61_040.jpg
+|                   kb61_040p.jpg
+|                   kb61_041.jpg
+|                   kb61_041p.jpg
+|                   kb61_042.jpg
+|                   kb61_042p.jpg
+|                   kb61_050.jpg
+|                   kb61_051p.jpg
+|                   kb61_053p.jpg
+|                   kb61_054p.jpg
+|                   kb61_055.jpg
+|                   kb61_056.jpg
+|                   kb61_056p.jpg
+|                   kb61_057.jpg
+|                   kb61_057p.jpg
+|                   kb61_060.jpg
+|                   kb61_060p.jpg
+|                   kb61_062.jpg
+|                   kb61_062p.jpg
+|                   kb61_064.jpg
+|                   kb61_067.jpg
+|                   kb61_070.jpg
+|                   kb61_071.jpg
+|                   kb61_073.jpg
+|                   kb61_075.jpg
+|                   kb61_075b.jpg
+|                   kb61_077.jpg
+|                   kb61_077b.jpg
+|                   kb61_078.jpg
+|                   kb61_079.jpg
+|                   kb61_081.jpg
+|                   kb61_083.jpg
+|                   kb61_084.jpg
+|                   kb61_085.jpg
+|                   kb61_086.jpg
+|                   kb61_086_2.jpg
+|                   kb61_087.jpg
+|                   kb61_087_2.jpg
+|                   kb61_088.jpg
+|                   kb61_090.jpg
+|                   kb61_091.jpg
+|                   kb61_092.jpg
+|                   kb61_093.jpg
+|                   kb61_094.jpg
+|                   kb61_095.jpg
+|                   kb61_096.jpg
+|                   kb61_100.jpg
+|                   kb61_102.jpg
+|                   kb61_104.jpg
+|                   kb61_105.jpg
+|                   kb61_107.jpg
+|                   kb61_108.jpg
+|                   kb61_110.jpg
+|                   kb61_111.jpg
+|                   kb61_112.jpg
+|                   kb61_112b.jpg
+|                   kb61_113.jpg
+|                   kb61_113b.jpg
+|                   kb61_114.jpg
+|                   kb61_115.jpg
+|                   kb61_122.jpg
+|                   kb61_123.jpg
+|                   kb61_124.jpg
+|                   kb61_125.jpg
+|                   kb61_127.jpg
+|                   kb61_129.jpg
+|                   kb61_130.jpg
+|                   kb61_132.jpg
+|                   kb61_135.jpg
+|                   
+\---qmk_firmware
+    +---.build
+    |       Keyball46_hex.zip
+    |       Keyball61_hex.zip
+    |       keyball_keyball46_default.hex
+    |       keyball_keyball46_test.hex
+    |       keyball_keyball46_test_Both.hex
+    |       keyball_keyball46_test_Left.hex
+    |       keyball_keyball46_via.hex
+    |       keyball_keyball46_via_Both.hex
+    |       keyball_keyball46_via_Left.hex
+    |       keyball_keyball61_default.hex
+    |       keyball_keyball61_develop.hex
+    |       keyball_keyball61_test.hex
+    |       keyball_keyball61_via.hex
+    |       
+    \---keyboards
+        \---keyball
+            |   readme.md
+            |   
+            +---drivers
+            |   \---pmw3360
+            |           pmw3360.c
+            |           pmw3360.h
+            |           pmw3360_pointing_device_driver.c
+            |           srom_0x04.c
+            |           srom_0x81.c
+            |           
+            +---keyball39
+            |   |   .noci
+            |   |   config.h
+            |   |   info.json
+            |   |   keyball39.c
+            |   |   keyball39.h
+            |   |   readme.md
+            |   |   rules.mk
+            |   |   via.json
+            |   |   
+            |   \---keymaps
+            |       +---default
+            |       |       config.h
+            |       |       keymap.c
+            |       |       rules.mk
+            |       |       
+            |       +---develop
+            |       |       config.h
+            |       |       keymap.c
+            |       |       rules.mk
+            |       |       
+            |       +---Jildren39
+            |       |       config.h
+            |       |       keymap.c
+            |       |       rules.mk
+            |       |       
+            |       +---test
+            |       |       config.h
+            |       |       keymap.c
+            |       |       rules.mk
+            |       |       
+            |       \---via
+            |               config.h
+            |               keymap.c
+            |               rules.mk
+            |               
+            +---keyball44
+            |   |   .noci
+            |   |   config.h
+            |   |   info.json
+            |   |   keyball44.c
+            |   |   keyball44.h
+            |   |   readme.md
+            |   |   rules.mk
+            |   |   via.json
+            |   |   
+            |   \---keymaps
+            |       +---default
+            |       |       config.h
+            |       |       keymap.c
+            |       |       rules.mk
+            |       |       
+            |       +---develop
+            |       |       config.h
+            |       |       keymap.c
+            |       |       rules.mk
+            |       |       
+            |       +---test
+            |       |       config.h
+            |       |       keymap.c
+            |       |       rules.mk
+            |       |       
+            |       \---via
+            |               config.h
+            |               keymap.c
+            |               rules.mk
+            |               
+            +---keyball46
+            |   |   .noci
+            |   |   config.h
+            |   |   info.json
+            |   |   keyball46.c
+            |   |   keyball46.h
+            |   |   keyball46.json
+            |   |   keyball46_left.json
+            |   |   readme.md
+            |   |   rules.mk
+            |   |   
+            |   +---docs
+            |   |       diff_from_v1.md
+            |   |       features_v1_ja.md
+            |   |       
+            |   \---keymaps
+            |       +---default
+            |       |       config.h
+            |       |       keymap.c
+            |       |       rules.mk
+            |       |       
+            |       +---develop
+            |       |       config.h
+            |       |       keymap.c
+            |       |       rules.mk
+            |       |       
+            |       +---test
+            |       |       config.h
+            |       |       keymap.c
+            |       |       rules.mk
+            |       |       
+            |       +---test_Both
+            |       |       config.h
+            |       |       keymap.c
+            |       |       rules.mk
+            |       |       
+            |       +---test_Left
+            |       |       config.h
+            |       |       keymap.c
+            |       |       rules.mk
+            |       |       
+            |       +---via
+            |       |       config.h
+            |       |       keymap.c
+            |       |       rules.mk
+            |       |       
+            |       +---via_Both
+            |       |       config.h
+            |       |       keymap.c
+            |       |       rules.mk
+            |       |       
+            |       \---via_Left
+            |               config.h
+            |               keymap.c
+            |               rules.mk
+            |               
+            +---keyball61
+            |   |   .noci
+            |   |   config.h
+            |   |   info.json
+            |   |   keyball61.c
+            |   |   keyball61.h
+            |   |   readme.md
+            |   |   rules.mk
+            |   |   via.json
+            |   |   
+            |   \---keymaps
+            |       +---default
+            |       |       config.h
+            |       |       keymap.c
+            |       |       rules.mk
+            |       |       
+            |       +---develop
+            |       |       config.h
+            |       |       keymap.c
+            |       |       rules.mk
+            |       |       
+            |       +---test
+            |       |       config.h
+            |       |       keymap.c
+            |       |       rules.mk
+            |       |       
+            |       \---via
+            |               config.h
+            |               keymap.c
+            |               rules.mk
+            |               
+            +---lib
+            |   |   glcdfont.c
+            |   |   
+            |   +---duplexmatrix
+            |   |       duplexmatrix.c
+            |   |       duplexmatrix.h
+            |   |       
+            |   +---keyball
+            |   |       keyball.c
+            |   |       keyball.h
+            |   |       keycodes.md
+            |   |       README.md
+            |   |       
+            |   +---logofont
+            |   |       font.md
+            |   |       logofont.c
+            |   |       
+            |   \---oledkit
+            |           oledkit.c
+            |           oledkit.h
+            |           
+            \---one47
+                |   .noci
+                |   config.h
+                |   info.json
+                |   one47.c
+                |   one47.h
+                |   readme.md
+                |   rules.mk
+                |   via.json
+                |   
+                +---docs
+                |       apply-kemap-right-to-left.png
+                |       
+                \---keymaps
+                    +---default
+                    |       config.h
+                    |       keymap.c
+                    |       rules.mk
+                    |       
+                    +---develop
+                    |       config.h
+                    |       keymap.c
+                    |       rules.mk
+                    |       
+                    +---test
+                    |       config.h
+                    |       keymap.c
+                    |       rules.mk
+                    |       
+                    \---via
+                            config.h
+                            keymap.c
+                            rules.mk
+                            
