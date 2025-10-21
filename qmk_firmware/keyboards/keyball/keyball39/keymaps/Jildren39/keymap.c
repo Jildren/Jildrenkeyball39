@@ -83,10 +83,14 @@ layer_state_t layer_state_set_user(layer_state_t state)
     keyball_set_scroll_mode(true);
     keyball_set_scrollsnap_mode(KEYBALL_SCROLLSNAP_MODE_VERTICAL);
     break;
+  case 2:
+    keyball_set_scroll_mode(true);
+    keyball_set_scrollsnap_mode(KEYBALL_SCROLLSNAP_MODE_HORIZONTAL);
+    break;
   default:
-            keyball_set_scroll_mode(false);
-            keyball_set_scrollsnap_mode(KEYBALL_SCROLLSNAP_MODE_VERTICAL);
-            break;
+    keyball_set_scroll_mode(false);
+    keyball_set_scrollsnap_mode(KEYBALL_SCROLLSNAP_MODE_VERTICAL);
+    break;
   }
   return state;
 }
